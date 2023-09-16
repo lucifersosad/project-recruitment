@@ -1,0 +1,38 @@
+.layout-default{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  &__header{
+    background: #f0f0f0;
+    padding: 15px 0;
+  }
+
+  &__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo{
+    font-size: 24px;
+    font-weight: 800;
+
+    a{
+      color: var(--color-main);
+    }
+  }
+
+  &__main{
+    flex: 1;
+    overflow-y: auto;
+    margin: 30px 0;
+  }
+
+  &__footer{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+  }
+}
